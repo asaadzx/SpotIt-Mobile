@@ -1,0 +1,36 @@
+{
+  "name": "spotit-mobile",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "latest",
+    "axios": "latest",
+    "expo": "~57.0.16",
+    "expo-constants": "latest",
+    "expo-image-picker": "latest",
+    "expo-linking": "latest",
+    "expo-router": "latest",
+    "expo-splash-screen": "latest",
+    "expo-status-bar": "~57.0.1",
+    "jwt-decode": "latest",
+    "react": "19.2.3",
+    "react-native": "0.86.2",
+    "react-native-gesture-handler": "latest",
+    "react-native-qrcode-svg": "latest",
+    "react-native-reanimated": "latest",
+    "react-native-safe-area-context": "latest",
+    "react-native-screens": "latest",
+    "react-native-svg": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "latest"
+  },
+  "private": true
+}

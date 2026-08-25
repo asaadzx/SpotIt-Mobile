@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "SpotIt",
+    "slug": "spotit-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "spotit",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fb6f56"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.spotit.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#fb6f56"
+      },
+      "package": "com.spotit.mobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-image-picker"
+    ]
+  }
+}
