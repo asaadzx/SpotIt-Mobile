@@ -33,7 +33,8 @@
     "react-native-reanimated": "latest",
     "react-native-safe-area-context": "latest",
     "react-native-screens": "latest",
-    "react-native-svg": "latest"
+    "react-native-svg": "latest",
+    "react-native-worklets": "^0.12.1"
   },
   "devDependencies": {
     "@babel/core": "latest"
