@@ -29,7 +29,7 @@ export default function ItemDetail() {
     setShowConfirm(false);
     setClaiming(true);
     try {
-      const res = await createClaim({ item_id: Number(id) }, token);
+      await createClaim({ item_id: Number(id) }, token);
       Alert.alert("Success", "Claim submitted!", [
         { text: "OK", onPress: () => router.replace("/(tabs)/claims") },
       ]);

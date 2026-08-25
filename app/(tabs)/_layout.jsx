@@ -41,28 +41,28 @@ export default function TabsLayout() {
         name="index"
         options={{
           title: "Home",
-          tabBarIcon: ({ color }) => <TabIcon name="magnifying-glass" color={color} />,
+          tabBarIcon: ({ color: _color }) => <TabIcon name="magnifying-glass" />,
         }}
       />
       <Tabs.Screen
         name="claims"
         options={{
           title: "My Claims",
-          tabBarIcon: ({ color }) => <TabIcon name="document-text" color={color} />,
+          tabBarIcon: ({ color: _color }) => <TabIcon name="document-text" />,
         }}
       />
       <Tabs.Screen
         name="profile"
         options={{
           title: "Profile",
-          tabBarIcon: ({ color }) => <TabIcon name="person-circle" color={color} />,
+          tabBarIcon: ({ color: _color }) => <TabIcon name="person-circle" />,
         }}
       />
     </Tabs>
   );
 }
 
-function TabIcon({ name, color }) {
+function TabIcon({ name, color: _color }) {
   const iconMap = {
     "magnifying-glass": "🔍",
     "document-text": "📋",

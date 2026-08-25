@@ -33,7 +33,7 @@ export default function Verify() {
     try {
       await verify(email, fullCode);
       router.replace("/(tabs)");
-    } catch (err) {
+    } catch {
       Alert.alert("Error", "Invalid or expired code");
       setCode(["", "", "", "", "", ""]);
       inputs.current[0].focus();

@@ -19,7 +19,7 @@ export default function Login() {
     try {
       await login(email);
       router.push({ pathname: "/(auth)/verify", params: { email } });
-    } catch (err) {
+    } catch {
       Alert.alert("Error", "Failed to send code. Try again.");
     } finally {
       setLoading(false);
